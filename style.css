@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400;600;700&family=Mochiy+Pop+One&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Noto+Naskh+Arabic&family=Noto+Sans+Arabic:wght@200&family=Nunito:ital,wght@0,300;1,200&family=Poppins:ital,wght@0,200;0,400;0,500;1,300;1,500&family=Rubik:ital,wght@0,300;1,300&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .wrapper {
@@ -28,4 +31,40 @@ nav .wrapper {
 .logo {
   font-size: 3rem;
   font-weight: bold;
+}
+
+#profile {
+  background: url("https://media.idownloadblog.com/wp-content/uploads/2023/05/Moody-silhouette-wallpaper-for-iPhone-idownloadblog-mockup-1500x1000.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  padding: 20px;
+  opacity: 0.8;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 10px;
+}
+
+.profile-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;
 }
